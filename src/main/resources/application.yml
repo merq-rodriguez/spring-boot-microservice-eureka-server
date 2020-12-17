@@ -8,5 +8,10 @@ server:
 
 eureka:
   client:
-    register-with-eureka: false
-    fetch-registry: false
+    registerWithEureka: false
+    fetchRegistry: false
+    healthcheck:
+      enabled: true
+
+
+      
